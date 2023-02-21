@@ -1,2 +1,1 @@
-# Sherry
-real Sherry
+# COMM7960
