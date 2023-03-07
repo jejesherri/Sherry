@@ -1,0 +1,133 @@
+﻿*{ margin:0px; padding:0px;}
+body 
+{
+    line-height:1.5;
+    font-family:Aril;
+}
+a{ text-decoration:none; color:#000; }
+ul,li{ list-style:none; }
+img{ max-width:100%; vertical-align:top; }
+.clr{ clear:both; }
+.w1200{ width:1200px; margin:0 auto; }
+
+p{word-break: break-all; }
+.banner { position:relative; }
+.banner img{ width:100%; }
+.banner .logo { position:absolute; left:30px; top:30px; }
+.banner .logo img{ width:auto; }
+.menu{ position:absolute; left:0px; right:0px; top:37px; left:30%; color:#fff; }
+.menu li{ margin-right:40px;  color:#fff; display:inline-block; padding:10px 20px; background:rgba(255,255,255,0); border-radius:5px; }
+.menu li a{ color:#fff; }
+
+
+.menu li:hover,.menu li.act{ background:rgba(255,255,255,.5); }
+.title{ text-align:center; margin:30px; font-weight:bolder; font-size:30px;  }
+
+.banner .txt{ text-align:center; position:absolute; left:0px; top:40%; width:100%;  }
+
+.banner .txt h2{ font-size:52px; color:#fff; }
+.banner .txt h2 span{ color:#fe9d2a; }
+.banner .txt p{ margin:20px 0px; color:#fff;  }
+.banner .txt a  
+{
+    width: 200px; 
+    line-height:40px; 
+    display:inline-block; 
+    text-align:center;
+    box-sizing: border-box;
+    padding: 10px;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    margin-top:20px;
+    transition: all 0.3s ease;
+}    
+.banner .txt a:hover{
+    background: #ff9f1c;
+}
+.say{ text-align:center; margin:80px 0px; }
+.say img{ width:120px; margin-bottom:20px; }
+.say h4{ color:#2dc4b5; font-size:20px; margin:20px 0px; }
+.say h4~p{ font-size:12px; color:#a2a2a2;  }
+.foot{ background:#151314; color:#fff; padding:40px 0px 50px; }
+.foot .fl{ float:left; width:30.33333333%; margin-right:3%; }
+.foot .fc{ float:left; width:30.33333333%; margin-right:3%; }
+.foot .fr{ float:left; width:33.33333333%; }
+.foot .fc input[type=text]{ width:100%; box-sizing:border-box; padding:10px; margin-top:30px;  margin-bottom:20px;}
+.foot .fc input[type=submit]{ width:70%; box-sizing:border-box; padding:10px; background:#ff9f1c; color:#fff; border:none; 
+    transition: all 0.3s ease;}
+
+.foot .fc input[type=submit]:hover{ background: #e74c3c; cursor:pointer; }
+
+.foot h3{ margin-bottom:20px; }
+.foot p{ color:#8a8a8a;  }
+.foot .fr p{ line-height:4; text-indent:4em;}
+.copy{ background:#000; text-align:center; color:#fff;  font-size:12px; line-height:40px; }
+.welcome{ padding:20px 0px; }
+.welcome .w1200{ width:950px; }
+.welcome .txt{ float:left; width:576px; }
+.welcome .pics{ float:right; width:360px; position:relative;  }
+.welcome .txt a 
+{
+    width: 200px; 
+    line-height:40px; 
+    display:inline-block; 
+    text-align:center;
+    box-sizing: border-box;
+    padding: 10px;
+    background: #ff9f1c;
+    color: #fff;
+    margin-top:20px;
+    transition: all 0.3s ease;
+}
+.welcome .txt a:hover{ background: #e74c3c; }
+.welcome .txt h3{ font-size:24px; color:#31c5b7; margin-bottom:20px; }
+.welcome .txt p{ margin-bottom:20px; }
+.welcome .pics .p1{ width:200px; margin-left:50px;  margin-right:-100px; position:relative; z-index:9999;  }
+.welcome .pics .p2{ width:200px; margin-top:120px; }
+.tours ul{ overflow:hidden; margin-bottom:40px; }
+.tours ul li{ width:32%; float:left; margin-right:2%; border:1px solid #ededed; box-sizing:border-box; }
+.tours ul li:last-child{ margin-right:0px; }
+.tours ul li img{ width:100%; }
+.tours ul li .info{ padding:20px; }
+.tours ul li .info p{ color: #a2a2a2; margin:10px 0px;}
+.tours ul li .info p b{ color: #000; padding-left:30px; }
+.banner1 .txt 
+{
+    width:1200px; 
+    margin:0 auto; 
+    position: absolute;
+    right: 0px; 
+    top: 30%;  text-align:right; 
+}
+.banner1 .txt h3{  font-size:30px; color:#fff; } 
+
+
+.banner1 .txt a 
+{
+    width: 200px; 
+    line-height:40px; 
+    display:inline-block; 
+    text-align:center;
+    box-sizing: border-box;
+    background: #ff9f1c;
+    padding: 10px;
+    color: #fff;
+    margin-top:20px;
+    transition: all 0.3s ease;
+}
+.banner1 .txt a:hover{ 
+    background: #e74c3c;  }
+    
+.banner2{ width:100%; height:500px; background:url(../images/banner3.jpg) ; background-size:100% 600px; padding:50px 0px; }
+
+
+.service ul{ overflow:hidden; }
+.service ul li{ width:32%; float:left; margin-right:2%;  box-sizing:border-box; }
+.service ul li:last-child{ margin-right:0px; }
+.service ul li .img{ width:60px; height:60px; background:orange; float:left; margin-right:20px; }
+.service ul li .tt{ width:280px;  float:left; }
+.service ul li .tt h3{ color:#fff; font-size:24px; margin-bottom:10px; }
+
+.pop{ margin:40px; float:right; width:50%; }
+.pop h3{ margin-bottom:10px; font-size:30px; }
+.pop p{ color:#fff; }
